@@ -1,10 +1,11 @@
-<h3>Here are all the meanings of the : 	<strong> <%= @dictionary.name() =%></strong></h3>
+<h3>Here are all the meanings of the word: 	<strong> <%= @dictionary.name() =%></strong></h3>
 
   <ul>
     <% @dictionary.word_list().each() do |word| %>
       <li><a href="/words/<%= word.id() %>"> <%= word.meaning() %></a></li>
     <% end %>
   </ul>
-
-  <a href="/dictionaries/<%= @dictionary.id%>/words/new">Add Meaning</a>
-  <a href="/">Return to Main Page</a>
+<p></p>
+  <a href="/dictionaries/<%= @dictionary.id%>/words/new">
+  	<i class="fa fa-plus-circle" aria-hidden="true"></i><strong>Add Meaning</strong></a>
+ 
