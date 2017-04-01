@@ -1,5 +1,11 @@
  @import url('https://fonts.googleapis.com/css?family=Lobster');
 
+
+ .navbar-brand{
+ 	font-family: 'Lobster', cursive;
+ 	font-size: 25px;
+
+ }
  .jumbotron{
         margin-top: 20px;
         color: #eee;
