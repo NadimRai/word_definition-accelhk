@@ -1,0 +1,8 @@
+
+
+  <h3>Here are the meanings on this list: </h3>
+  <ul>
+  <% @words.each() do |word| %>
+    <li><a href="/words/<%= word.id() %>"><%= word.meaning() %></a></li>
+  <% end %>
+  </ul>

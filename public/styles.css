@@ -1,0 +1,31 @@
+ @import url('https://fonts.googleapis.com/css?family=Lobster');
+
+ .jumbotron{
+        margin-top: 20px;
+        color: #eee;
+        background: #000;
+        font-family: 'Lobster', cursive;
+        text-align: center;
+}
+
+ul{
+        list-style: none;
+      }
+
+.fa{
+	color: #f63;
+	font-size: 22px;
+}
+
+.panel{
+	width: 60%;
+	border: 1px solid red;
+	font-size: 24px;
+	text-align: center;
+	margin:0 auto;
+}
+
+.divider{
+	width:100%;
+	height: 100px;
+}
